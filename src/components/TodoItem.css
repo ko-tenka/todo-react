@@ -1,0 +1,21 @@
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #bbb;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  transition: border-color 0.2s, background 0.2s;
+  margin-right: 4px;
+}
+.custom-checkbox.checked {
+  border-color: #48f321;
+  background: #ffffff;
+
+}
+.completed span:last-child {
+  text-decoration: line-through;
+  color: #aaa;
+} 

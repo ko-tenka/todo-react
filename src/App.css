@@ -1,0 +1,142 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body, #root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+h1{
+  color: #c9b6b6;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.todo-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.todo-inline-item {
+  padding: 4px 12px;
+  border-radius: 16px;
+  background: #f3f3f3;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.todo-inline-item:hover {
+  background: #e0e0e0;
+}
+.todo-inline-item.completed {
+  text-decoration: line-through;
+  color: #aaa;
+  background: #dcf5d9;
+}
+
+.todo-app{
+  background-color: #e8e8e8;
+}
+
+.todo-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0 8px 0;
+  justify-content: center;
+}
+.tab {
+  padding: 6px 18px;
+  border: none;
+  background: #f3f3f3;
+  border-radius: 16px 16px 0 0;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #555;
+  transition: background 0.2s, color 0.2s;
+}
+.tab.active {
+  border: 2px solid #c9b6b6;
+  border-radius: 2px;
+  color: #222;
+}
+.tab:not(.active):hover {
+  background: #e0e0e0;
+}
+
+.todo-column-list-block {
+  margin: 24px 0 16px 0;
+  text-align: left;
+}
+.todo-column-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.todo-column-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+.todo-column-item.empty {
+  color: #aaa;
+  font-style: italic;
+  border: none;
+}
+
+.todo-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 16px 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fafafa;
+}
+.todo-bottom-bar .todo-tabs {
+  margin: 0;
+}
+.todo-app-content {
+  position: relative;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding-bottom: 40px;
+  background: #ffffff;
+  z-index: 1;
+}
+
+.todo-app-content::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  background: #e8e8e8;
+  z-index: 0;
+}
+
+body, #root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-stats {
+  color: rgb(0, 0, 0);
+}
