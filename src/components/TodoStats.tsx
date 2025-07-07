@@ -1,11 +1,10 @@
 import React from 'react';
 
 type TodoStatsProps = {
-  total: number;
   remaining: number;
 };
 
-const TodoStats: React.FC<TodoStatsProps> = ({ total, remaining }) => (
+const TodoStats: React.FC<TodoStatsProps> = ({ remaining }) => (
   <div className="todo-stats">
   {remaining} items left
   </div>

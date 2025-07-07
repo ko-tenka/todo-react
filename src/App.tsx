@@ -45,7 +45,9 @@ function App() {
 
   return (
     <div className="todo-app">
-      <h1>ToDo App</h1>
+      <h1>todos</h1>
+
+      <div className='todo-app-content'>
       <TodoInput input={input} setInput={setInput} onAdd={addTodo} />
 
       <div className="todo-column-list-block">
@@ -58,7 +60,7 @@ function App() {
       </div>
 
       <div className="todo-bottom-bar">
-      <TodoStats total={todos.length} remaining={remaining} />
+      <TodoStats remaining={remaining} />
         <div className="todo-tabs">
           <button
             className={activeTab === 'all' ? 'tab active' : 'tab'}
@@ -81,6 +83,7 @@ function App() {
         </div>
         <TodoClearCompleted onClear={clearCompleted} disabled={completed.length === 0} />
       </div>
+    </div>
     </div>
   )
 }

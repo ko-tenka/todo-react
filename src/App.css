@@ -5,7 +5,7 @@
   text-align: center;
 }
 body, #root {
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,6 +47,7 @@ h1{
 
 .todo-app{
   background-color: #e8e8e8;
+  min-width: 800px; 
 }
 
 .todo-tabs {
@@ -103,9 +104,7 @@ h1{
   gap: 16px;
   margin-top: 24px;
   padding: 16px 20px;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  background: #fafafa;
+
 }
 .todo-bottom-bar .todo-tabs {
   margin: 0;
