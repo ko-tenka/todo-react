@@ -17,6 +17,7 @@ h1{
 
 .card {
   padding: 2em;
+  
 }
 
 .read-the-docs {
@@ -28,6 +29,7 @@ h1{
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 8px;
+  
 }
 .todo-inline-item {
   padding: 4px 12px;
@@ -35,6 +37,7 @@ h1{
   background: #f3f3f3;
   font-size: 1rem;
   transition: background 0.2s;
+  
 }
 .todo-inline-item:hover {
   background: #e0e0e0;
@@ -48,6 +51,7 @@ h1{
 .todo-app{
   background-color: #e8e8e8;
   min-width: 800px; 
+  
 }
 
 .todo-tabs {
@@ -55,15 +59,14 @@ h1{
   gap: 8px;
   margin: 16px 0 8px 0;
   justify-content: center;
+  
 }
 .tab {
-  padding: 6px 18px;
+  padding: 6px 8px;
   border: none;
-  background: #f3f3f3;
   border-radius: 16px 16px 0 0;
   font-size: 1rem;
   cursor: pointer;
-  color: #555;
   transition: background 0.2s, color 0.2s;
 }
 .tab.active {
@@ -113,7 +116,6 @@ h1{
   position: relative;
   margin-right: 2%;
   margin-left: 2%;
-  padding-bottom: 40px;
   background: #ffffff;
   z-index: 1;
 }
@@ -138,4 +140,15 @@ body, #root {
 
 .todo-stats {
   color: rgb(0, 0, 0);
+}
+
+button{
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+li{
+  border-bottom: 1px solid #0000003d; /* или другой цвет/толщина */
+  padding-bottom: 4px;   
 }

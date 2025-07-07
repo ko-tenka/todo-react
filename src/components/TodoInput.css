@@ -1,0 +1,12 @@
+.todo-input{
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    border: none;
+}
+.todo-form{
+    display: flex;
+    border-bottom: 1px solid #0000009b; /* или другой цвет/толщина */
+    padding-top: 30px;
+ 
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './TodoInput.css'
 
 type TodoInputProps = {
   input: string;
@@ -11,7 +12,7 @@ const TodoInput: React.FC<TodoInputProps> = ({ input, setInput, onAdd }) => (
     <input
       value={input}
       onChange={e => setInput(e.target.value)}
-      placeholder="Новая задача"
+      placeholder="What needs to be done?"
       className="todo-input"
     />
     <button type="submit" className="todo-add-btn">Добавить</button>
