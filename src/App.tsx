@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="todo-app">
-      <h1>todos</h1>
+      <h1 className='my-title'>todos</h1>
 
       <div className='todo-app-content'>
       <TodoInput input={input} setInput={setInput} onAdd={addTodo} />
